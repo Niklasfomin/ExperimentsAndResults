@@ -1,7 +1,7 @@
 #!/bin/bash
-workflows=( rnaseq atacseq chipseq ampliseq mag viralrecon nanoseq sarek eager )
-prios=( fifo rank random max min rank_max rank_min )
-assigns=( random roundrobin fair )
+workflows=( rnaseq )
+prios=( fifo )
+assigns=( roundrobin )
 pod="management"
 cluster=$1
 namespace="cws"
