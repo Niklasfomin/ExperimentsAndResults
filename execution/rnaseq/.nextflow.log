@@ -1,0 +1,6 @@
+Nov.-18 13:40:54.883 [main] DEBUG nextflow.cli.Launcher - $> nextflow kuberun /input/pipelines/test/ -v 'api-exp-data:/data' -v 'api-exp-input:/input' -head-image 'commonworkflowscheduler/nextflow:v1.0' -config ../nextflow.config -config ../configs/test.config --save_reference false --outdir /data/output -remoteProfile fifo_roundrobin -profile ,rnaseq
+Nov.-18 13:40:55.026 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/rnaseq/../nextflow.config
+Nov.-18 13:40:55.027 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/rnaseq/../configs/test.config
+Nov.-18 13:40:55.027 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/nextflow.config
+Nov.-18 13:40:55.027 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/configs/test.config
+Nov.-18 13:40:55.066 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `,rnaseq`

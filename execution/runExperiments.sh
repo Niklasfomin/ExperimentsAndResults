@@ -1,7 +1,7 @@
 #!/bin/bash
-workflows=( rnaseq )
-prios=( fifo )
-assigns=( roundrobin )
+workflows=(rnaseq)
+prios=(fifo)
+assigns=(roundrobin)
 pod="management"
 cluster=$1
 namespace="cws"
