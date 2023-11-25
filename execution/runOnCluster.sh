@@ -18,3 +18,4 @@ nextflow kuberun /input/pipelines/$workflow/ \
     --outdir /data/output \
     -remoteProfile $profile \
     -profile $strategy,$cluster
+    

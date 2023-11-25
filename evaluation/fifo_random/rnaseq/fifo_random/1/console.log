@@ -1,0 +1,5 @@
+Launcher pod spec file: .nextflow.pod.yaml
+Pod submitted: small-neumann .. waiting to start[2KPod started: small-neumann
+mv: cannot move ‘/data/launch/nxf-tmp.DhsIr4’ to ‘.//usr/local/bin/nextflow’: No such file or directory
+N E X T F L O W  ~  version 22.09.7-edge
+Cannot find script file: /input/pipelines/rnaseq/

@@ -1,0 +1,13 @@
+Nov-24 16:37:54.103 [main] DEBUG nextflow.cli.Launcher - $> nextflow kuberun /input/pipelines/rnaseq/ -v 'api-exp-data:/data' -v 'api-exp-input:/input' -head-image 'commonworkflowscheduler/nextflow:v1.0' -config ../nextflow.config -config ../configs/rnaseq.config --save_reference false --outdir /data/output -remoteProfile test -profile fifo_random,fifo_random
+Nov-24 16:37:54.284 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/fifo_random/../nextflow.config
+Nov-24 16:37:54.285 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/fifo_random/../configs/rnaseq.config
+Nov-24 16:37:54.285 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/nextflow.config
+Nov-24 16:37:54.285 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/configs/rnaseq.config
+Nov-24 16:37:54.317 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `fifo_random,fifo_random`
+Nov-24 16:37:55.452 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `fifo_random,fifo_random`
+Nov-24 16:37:55.497 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [k8s, fifo_random]
+Nov-24 16:37:55.860 [main] DEBUG nextflow.k8s.K8sConfig - Kubernetes workDir=/data/work/; projectDir=/data/project/; volumeClaims=[api-exp-data, api-exp-input]
+Nov-24 16:37:56.541 [main] DEBUG nextflow.scm.ProviderConfig - Using SCM config path: /home/niklas/.nextflow/scm
+Nov-24 16:37:56.632 [main] DEBUG nextflow.k8s.K8sDriverLauncher - Created K8s configMap with name: nf-config-94625cc7
+Nov-24 16:37:56.713 [main] INFO  nextflow.k8s.K8sDriverLauncher - Launcher pod spec file: .nextflow.pod.yaml
+Nov-24 16:38:01.228 [main] DEBUG nextflow.k8s.K8sDriverLauncher - Wait for pod termination name=small-neumann

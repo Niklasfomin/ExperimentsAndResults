@@ -1,0 +1,13 @@
+Nov-24 16:37:24.707 [main] DEBUG nextflow.cli.Launcher - $> nextflow kuberun /input/pipelines/rnaseq/ -v 'api-exp-data:/data' -v 'api-exp-input:/input' -head-image 'nextflow/nextflow:22.10.1' -config ../nextflow.config -config ../configs/rnaseq.config --save_reference false --outdir /data/output/ -profile fifo_random -remoteProfile test
+Nov-24 16:37:24.924 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/fifo_random/../nextflow.config
+Nov-24 16:37:24.925 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/fifo_random/../configs/rnaseq.config
+Nov-24 16:37:24.925 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/nextflow.config
+Nov-24 16:37:24.926 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/niklas/tubCloud/repos/PJDS/CWS/ExperimentsAndResults/execution/configs/rnaseq.config
+Nov-24 16:37:24.959 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `fifo_random`
+Nov-24 16:37:25.966 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `fifo_random`
+Nov-24 16:37:26.004 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [k8s, fifo_random]
+Nov-24 16:37:26.226 [main] DEBUG nextflow.k8s.K8sConfig - Kubernetes workDir=/data/work/; projectDir=/data/project/; volumeClaims=[api-exp-data, api-exp-input]
+Nov-24 16:37:26.518 [main] DEBUG nextflow.scm.ProviderConfig - Using SCM config path: /home/niklas/.nextflow/scm
+Nov-24 16:37:26.583 [main] DEBUG nextflow.k8s.K8sDriverLauncher - Created K8s configMap with name: nf-config-fbaa49a9
+Nov-24 16:37:26.622 [main] INFO  nextflow.k8s.K8sDriverLauncher - Launcher pod spec file: .nextflow.pod.yaml
+Nov-24 16:37:39.951 [main] DEBUG nextflow.k8s.K8sDriverLauncher - Wait for pod termination name=prickly-stallman

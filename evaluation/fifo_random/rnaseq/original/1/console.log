@@ -1,0 +1,6 @@
+Launcher pod spec file: .nextflow.pod.yaml
+Pod submitted: prickly-stallman .. waiting to start[2KPod started: prickly-stallman
+N E X T F L O W  ~  version 22.10.1
+Cannot find script file: /input/pipelines/rnaseq/
+Pod running: prickly-stallman ... waiting for pod to stop running
+Pod prickly-stallman has changed from running state [terminated:[exitCode:1, reason:Error, startedAt:2023-11-24T15:37:27Z, finishedAt:2023-11-24T15:37:29Z, containerID:docker://174baaf6162fc0130debebfc021cc839bd398328fb9f9b390ab7ea8a4680aed4]]

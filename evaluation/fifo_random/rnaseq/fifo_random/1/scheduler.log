@@ -1,0 +1,31 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::         (v1.0-SNAPSHOT)
+
+2023-11-24 15:37:45.681  INFO 1 --- [           main] cws.scheduler.Main                       : Starting Main v1.0-SNAPSHOT using Java 17-ea on workflow-scheduler with PID 1 (/app/k8s-scheduler.jar started by root in /app)
+2023-11-24 15:37:45.685  INFO 1 --- [           main] cws.scheduler.Main                       : No active profile set, falling back to default profiles: default
+2023-11-24 15:37:47.528  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-24 15:37:47.551  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-24 15:37:47.551  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-11-24 15:37:47.616  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-24 15:37:47.617  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1806 ms
+2023-11-24 15:37:48.798  INFO 1 --- [           main] cws.scheduler.model.NodeWithAlloc        : Node minikube has RAM: 9113559040 and CPU: 8
+2023-11-24 15:37:48.800  INFO 1 --- [           main] cws.scheduler.model.NodeWithAlloc        : Node minikube-m02 has RAM: 9113559040 and CPU: 8
+2023-11-24 15:37:48.800  INFO 1 --- [           main] cws.scheduler.model.NodeWithAlloc        : Node minikube-m03 has RAM: 9113559040 and CPU: 8
+2023-11-24 15:37:48.800  INFO 1 --- [           main] cws.scheduler.model.NodeWithAlloc        : Node minikube-m04 has RAM: 9113559040 and CPU: 8
+2023-11-24 15:37:48.972  INFO 1 --- [//10.96.0.1/...] cws.scheduler.client.KubernetesClient    : New Node minikube was added
+2023-11-24 15:37:48.978  INFO 1 --- [//10.96.0.1/...] cws.scheduler.client.KubernetesClient    : New Node minikube-m02 was added
+2023-11-24 15:37:48.992  INFO 1 --- [//10.96.0.1/...] cws.scheduler.client.KubernetesClient    : New Node minikube-m03 was added
+2023-11-24 15:37:49.000  INFO 1 --- [//10.96.0.1/...] cws.scheduler.client.KubernetesClient    : New Node minikube-m04 was added
+2023-11-24 15:37:49.604  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-11-24 15:37:50.876  INFO 1 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2023-11-24 15:37:50.922  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-24 15:37:50.950  INFO 1 --- [           main] cws.scheduler.Main                       : Started Main in 5.836 seconds (JVM running for 6.213)
+2023-11-24 15:37:55.860  INFO 1 --- [//10.96.0.1/...] cws.scheduler.client.KubernetesClient    : Pod has released its resources: workflow-prepare-wf254
+2023-11-24 15:37:56.060  INFO 1 --- [//10.96.0.1/...] cws.scheduler.client.KubernetesClient    : Pod has released its resources: workflow-prepare-8l8nz
+2023-11-24 15:38:01.621  INFO 1 --- [//10.96.0.1/...] cws.scheduler.client.KubernetesClient    : Node minikube-m03 was modified
